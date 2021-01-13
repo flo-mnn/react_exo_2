@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import logo from './mg_logo.png';
+import img2 from './img2.png';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <img src={img2} className="img2" alt="logo" />
       </header>
     </div>
   );
